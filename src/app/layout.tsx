@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import SmoothScroll from "@/components/layout/SmoothScroll";
 import PageTransition from "@/components/layout/PageTransition";
+import Chatbot from "@/components/ui/Chatbot";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -37,6 +38,7 @@ export default function RootLayout({
           <PageTransition>
             {children}
           </PageTransition>
+          <Chatbot />
         </SmoothScroll>
       </body>
     </html>
